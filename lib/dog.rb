@@ -14,13 +14,13 @@ class Dog
   
   def self.all
   
-    @all
+    @@all
     
   end
   
   def self.clear_all
     
-    
+    @@all.clear()
     
   end
   
