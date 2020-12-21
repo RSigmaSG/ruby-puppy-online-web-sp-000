@@ -12,13 +12,13 @@ class Dog
     
   end
   
-  self.all
+  def self.all
   
     @all
     
   end
   
-  self.print_all
+  def self.print_all
   
   @@all.each {|dog| puts dog.name}
   
